@@ -141,6 +141,12 @@ body {
 .blackBg {
   background-color: black;
 }
+.capitalize{
+  text-transform: capitalize;
+}
+.height70vh{
+  height: 70vh;
+}
 // key frames
 @keyframes pulse {
   from {

@@ -4,13 +4,17 @@ import { InputComponent } from './input/input.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { ButtonComponent } from './button/button.component';
 import { ImageWrapperComponent } from './image-wrapper/image-wrapper.component';
+import { TextComponent } from './text/text.component';
+import { FlipCardComponent } from './flip-card/flip-card.component';
 
 
 @NgModule({
   declarations: [
     InputComponent,
     ButtonComponent,
-    ImageWrapperComponent
+    ImageWrapperComponent,
+    TextComponent,
+    FlipCardComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +24,9 @@ import { ImageWrapperComponent } from './image-wrapper/image-wrapper.component';
   exports:[
     InputComponent,
     ButtonComponent,
-    ImageWrapperComponent
+    ImageWrapperComponent,
+    TextComponent,
+    FlipCardComponent
   ]
 })
 export class SharedModule { }

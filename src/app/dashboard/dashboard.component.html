@@ -1,16 +1,16 @@
-<div class="container">
+<div class="container p-3">
     <div class="row">
         <div class="col-sm-12">
-            <app-header></app-header>
+            <app-header [style.height]="headerHeight + 'px'"></app-header>
         </div>
         <div class="col-sm-3">
             <app-sidebar></app-sidebar>
         </div>
-        <div class="col-sm-9">
+        <div class="col-sm-9 height70vh" [style.height]="bodyHeight + 'px'">
             <router-outlet></router-outlet>
         </div>
         <div class="col-sm-12">
-            <app-footer></app-footer>
+            <app-footer [style.height]="footerHeight + 'px'"></app-footer>
         </div>
     </div>
 </div>
